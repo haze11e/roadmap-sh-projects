@@ -17,9 +17,6 @@ This repository contains hands-on projects designed to build practical frontend 
 - **Status**: ✅ Complete
 - **Project Link**: [roadmap.sh - Single Page CV](https://roadmap.sh/projects/single-page-cv)
 
-### 🔄 In Progress
-
-*No projects currently in progress*
 
 ### 📋 Planned Projects
 
@@ -29,7 +26,7 @@ This repository contains hands-on projects designed to build practical frontend 
 
 - **HTML5** - Semantic markup and structure
 - **SEO** - Meta tags, Open Graph, accessibility
-- VSCode - code editor
+- **VSCode** - code editor
 - *More technologies will be added as projects progress*
 
 ## 📖 Learning Path
@@ -88,10 +85,6 @@ To explore a project:
 - [roadmap.sh - Frontend Developer](https://roadmap.sh/frontend)
 - [roadmap.sh - Projects - Single Page CV](https://roadmap.sh/projects)
 - Individual project resources listed in each project's README
-
-## 🤝 Connect
-
-This is my learning journey through frontend development. Feel free to explore the projects and see my progress!
 
 ---
 
