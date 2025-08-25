@@ -20,6 +20,19 @@ This project focuses on creating a structured CV using only HTML - no CSS stylin
 - Project Section
 - Certifications and training section
 
+## Project Structure
+```
+01-single-page-cv/
+├── asset/
+│   ├── apple-touch-icon.png
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── favicon.ico
+│   └── site.webmanifest
+├── index.html
+└── README.md
+```
+
 ## How to View
 Open `index.html` in your browser.
 
