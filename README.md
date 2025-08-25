@@ -45,7 +45,7 @@ Following the [roadmap.sh Frontend Developer](https://roadmap.sh/frontend) curri
 7. 📋 Build Tools (planned)
 8. 📋 Frontend Frameworks (planned)
 
-## 🚀 How to Use
+## How to Use
 
 Each project is contained in its own directory with:
 - Individual README with project-specific details
@@ -64,7 +64,7 @@ To explore a project:
 - **Current Focus**: HTML Fundamentals
 - **Next Milestone**: CSS Fundamentals
 
-## 🌟 Key Learning Outcomes
+## Key Learning Outcomes
 
 ### Completed
 - ✅ Semantic HTML structure
