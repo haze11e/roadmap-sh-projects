@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frontend developer project challenge from roadmap.sh">
+    <meta name="author" content="Hazelle Jane Asence">
+    <title>Basic HTML Website</title>
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <div>
+            <img src="#image" alt="LOGO">
+        </div>
+        <!-- Navigation -->
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#education">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="container hero-section" id="hero">
+            <h1>Hazelle Jane Asence</h1>
+            <h3>Frontend Developer</h3>
+            <p>Hi, I'm Hazelle, a frontend developer and UI designer</p>
+        </section>
+
+        <!-- Education Section-->
+        <section id="container-grid">
+            <aside class="container education-section" id="education">
+                <h2>Education</h2>
+                <article class="education-card">
+                    <header>
+                        <h4>STI College Naga</h4>
+                        <p>Bachelor of Science in Information Technology</p>
+                        <p>2021-2025</p>
+                    </header>
+                    <ul>
+                        <li>Cumlaude</li>
+                        <li>Champion - Mobile App Hackathon</li>
+                        <li>Champion - Web Design Competition</li>
+                        <li>Capstone Project - Labirinto: An interactive Game-Based learning system for Araling Panlipunan 7</li>
+                    </ul>
+                </article>
+            </aside>
+
+            <section class="container experience-section" id="experience">
+                <h2>Work Experience</h2>
+                <article class="experience-card">
+                    <header>
+                        <h3>IT Support Intern, Concentrix</h3>
+                        <p>Feb - May 2025</p>
+                    </header>
+                    <ul>
+                        <li>Supported 100+ users with 95% first-contact resolution rate through effective problem-solving</li>
+                        <li>Reimaged 50+ Windows 11 PCs, streamlining setup processes and ensuring security standards</li>
+                        <li>Audited 500+ IT assets, improving inventory accuracy by 35% through systematic analysis</li>
+                        <li>Collaborated with IT team to implement updates, reducing repeat tickets by 20%</li>
+                    </ul>
+                </article>
+
+                <article class="experience-card">
+                    <header>
+                        <h3>Roadmap.sh</h3>
+                        <p>Solved all the Frontend Projects</p>
+                    </header>
+                    <ul>
+                        <li><a href="#profile">Visit my Profile</a></li>
+                        <li><a href="#github">Visit my Github</a></li>
+                    </ul>
+                </article>
+            </section>
+
+            <aside class="container projects-section" id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="#1">Personal Portfolio</a></li>
+                    <li><a href="#2">Capstone Project: Labirinto</a></li>
+                    <li><a href="#3">Roadmap.sh Projects</a></li>
+                    <li><a href="#4">E-Commerce</a></li>
+                </ul>
+            </aside>
+        </section>
+
+        <!-- Testimonials Section-->
+        <section class="Testimonials-section" id="Testimonials">
+            <h2>Testimonials</h2>
+            <div class="Testimonials-container">
+                <article class="Testimonials-card">
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+                    </blockquote>
+                    <footer>
+                        <cite>Name of the Person</cite>
+                        <p>Assistant Professor</p>
+                    </footer>
+                </article>
+
+                <article class="Testimonials-card">
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+                    </blockquote>
+                    <footer>
+                        <cite>Name of the Person</cite>
+                        <p>Assistant Professor</p>
+                    </footer>
+                </article>
+
+                <article class="Testimonials-card">
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</p>
+                    </blockquote>
+                    <footer>
+                        <cite>Name of the Person</cite>
+                        <p>Assistant Professor</p>
+                    </footer>
+                </article>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section class="container contact" id="contact">
+            <h2>Contact Me</h2>
+
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Full Name: </label>
+                    <input type="text" id="name" name="name" placeholder="Enter Your Full Name" autocomplete="on" required>
+                </div>
+
+               <div class="form-group">
+                    <label for="name">Email: </label>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com" autocomplete="on"required>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Message: </label>
+                    <input type="text" id="message" name="message" required>
+                </div>
+                <div class="btn btn-send-message">
+                    <button>Send</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer simple-footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-col brand-col">
+                    <h3>Hazelle Jane Asence</h3>
+                    <p>"Frontend Developer & UX Designer creating accessible digital experiences that users love"</p>
+                </div>
+
+                <div class="footer-col nav-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#education">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col connect-col">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="#github">GitHub</a></li>
+                        <li><a href="#linkedin">LinkedIn</a></li>
+                        <li><a href="#instagram">Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col services-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#web-design">Web Design</a></li>
+                        <li><a href="#app-design">App Design</a></li>
+                        <li><a href="#frontend-dev">Frontend Development</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">&copy; 2025 Hazelle Jane Asence.<br>All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
